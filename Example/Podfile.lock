@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - lmkit (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - lmkit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  lmkit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  lmkit: fff109ccac7be14808eaf7e2591827e314d67307
+
+PODFILE CHECKSUM: cabb623e173c6f07b113cf3102990b4c65461c85
+
+COCOAPODS: 1.10.1

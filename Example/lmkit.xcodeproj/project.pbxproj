@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		03D97BFCF6FC8A164314C733 /* Pods-lmkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lmkit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-lmkit_Tests/Pods-lmkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4759D404F1860F2E6364F327 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4759D404F1860F2E6364F327 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* lmkit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lmkit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,10 +58,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6C3FC0DC37542210FC49962B /* lmkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = lmkit.podspec; path = ../lmkit.podspec; sourceTree = "<group>"; };
+		6C3FC0DC37542210FC49962B /* lmkit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = lmkit.podspec; path = ../lmkit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6E22A6165A694726F872502D /* Pods-lmkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lmkit_Example.release.xcconfig"; path = "Target Support Files/Pods-lmkit_Example/Pods-lmkit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7EC4853FC4D886BF8C98A361 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7EC4853FC4D886BF8C98A361 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12020A7AA6E413891F8F903 /* Pods-lmkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lmkit_Example.debug.xcconfig"; path = "Target Support Files/Pods-lmkit_Example/Pods-lmkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AE6C98873D97FC91249A540E /* Pods_lmkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lmkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				03D97BFCF6FC8A164314C733 /* Pods-lmkit_Tests.debug.xcconfig */,
 				FEABB5CCF4896C25BF984EFE /* Pods-lmkit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
