@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/960157994@qq.com/lmkit'
+  s.homepage         = 'https://github.com/zhoujin960157994/lmkit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '960157994@qq.com' => '3077118763@qq.com' }
-  s.source           = { :git => 'https://github.com/960157994@qq.com/lmkit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhoujin960157994/lmkit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
